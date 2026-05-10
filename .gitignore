@@ -1,16 +1,21 @@
-# Compiled class file
-*.class
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Build
+target/
+build/
+.gradle/
 *.jar
 *.war
 *.nar
@@ -19,6 +24,32 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Maven
+.mvn/
+mvn_output.log
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Uploads & Temp
+uploads/
+sanctions-data/
+logs/
+.tmp/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Sensitive
+*.pem
+*.key
+*.cert
+private_key.txt
